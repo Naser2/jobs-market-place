@@ -24,6 +24,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 const App: () => React$Node = () => {
   return (
     <>
@@ -33,6 +36,7 @@ const App: () => React$Node = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
+          <FontAwesomeIcon  icon={ faCoffee } />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
