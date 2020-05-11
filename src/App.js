@@ -12,8 +12,6 @@ async function prepareIcons() {
       Ionicons.getImageSource('md-menu', 25),
   ]);
 
-  console.log('Later')
-
   const [ homeIcon, marketIcon, thirdBottomTabIcon, burger ] = icons;
   return { homeIcon, marketIcon, thirdBottomTabIcon, burger };
 }
