@@ -5085,6 +5085,11 @@ react-native-svg@^12.1.0:
     css-select "^2.1.0"
     css-tree "^1.0.0-alpha.39"
 
+react-native-tailwind@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/react-native-tailwind/-/react-native-tailwind-1.0.10.tgz#f08bb3dcdfef651c991a4bcab155255eff71f161"
+  integrity sha512-gTFUoLfrqt8OT5XDNGccL+qTwB+7ZQLootopCaS6aG6pk54ZcNPwvS8ArRq/NYhTkH27ZD6FWwwrdZdWNrWDXA==
+
 react-native@0.62.2:
   version "0.62.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"

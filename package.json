@@ -17,6 +17,7 @@
     "react-native": "0.62.2",
     "react-native-navigation": "^6.5.0",
     "react-native-svg": "^12.1.0",
+    "react-native-tailwind": "^1.0.10",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
