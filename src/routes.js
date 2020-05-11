@@ -5,17 +5,24 @@ import {
   ProfileScreen,
   PROFILE_SCREEN,
 } from './modules/Core/Profile'
-// import {
-//   NestedScreenB,
-//   NESTED_B_SCREEN,
-// } from './modules/Core/screens/NestedScreenB'
+
+import {
+    LoginScreen,
+    LOGIN_SCREEN,
+  } from './modules/Core/Login'
+
+import {
+  RegisterScreen,
+  REGISTER_SCREEN,
+} from './modules/Core/Register'
+
 // import { SignInScreen, SIGN_IN_SCREEN } from './modules/Core/screens/SignIn'
 
 export const registerScreens = () => {
   registerScreen(HOME_SCREEN.name, HomeScreen)
   registerScreen(PROFILE_SCREEN.name, ProfileScreen)
-//   registerScreen(NESTED_A_SCREEN.name, NestedScreenA)
-//   registerScreen(NESTED_B_SCREEN.name, NestedScreenB)
+  registerScreen(LOGIN_SCREEN.name, LoginScreen)
+  registerScreen(REGISTER_SCREEN.name, RegisterScreen)
 }
 
 // export const goToAuthScreen = () =>

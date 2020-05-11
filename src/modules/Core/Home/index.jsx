@@ -5,6 +5,9 @@ import {SafeAreaView, Button} from 'react-native';
 import { handleNavigation } from '../../../utils/navigation'
 
 import { PROFILE_SCREEN } from '../Profile'
+import { REGISTER_SCREEN } from '../Register'
+import { LOGIN_SCREEN } from '../Login'
+
 
 export const HOME_SCREEN = {
   name: 'app.Home',
@@ -16,7 +19,9 @@ export const HomeScreen = ({componentId}) => {
     <SafeAreaView>
       <View>
         <Text>Jobs Home Screen</Text>
-        <Button onPress={()=>handleNavigation(componentId, PROFILE_SCREEN.name)} title="To Profile"></Button>
+        <Button onPress={()=>handleNavigation(componentId, REGISTER_SCREEN.name)} title="Register"></Button>
+        <Button onPress={()=>handleNavigation(componentId, LOGIN_SCREEN.name)} title="Login"></Button>
+        <Button onPress={()=>handleNavigation(componentId, PROFILE_SCREEN.name)} title="Profile"></Button>
       </View>
     </SafeAreaView>
   );

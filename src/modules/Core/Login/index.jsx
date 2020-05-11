@@ -7,27 +7,26 @@ import { HOME_SCREEN } from '../Home'
 
 
 
-export const REGISTER_SCREEN = {
-  name: 'app.Register',
-  title: 'Register',
+export const LOGIN_SCREEN = {
+  name: 'app.Login',
+  title: 'Login',
 };
 
-export const RegisterScreen = ({componentId}) => {
-    
+export const LoginScreen = ({componentId}) => {
   return (
     <SafeAreaView>
       <View>
-        <Text>Register Screen</Text>
+        <Text>Login Screen</Text>
         <Button onPress={()=>handleNavigation(componentId, HOME_SCREEN.name)} title="Go Home">Go Home</Button>
       </View>
     </SafeAreaView>
   );
 };
 
-RegisterScreen.options = () => ({
+LoginScreen.options = () => ({
   topBar: {
     title: {
-      text: REGISTER_SCREEN.title,
+      text: LOGIN_SCREEN.title,
     },
   },
 });
