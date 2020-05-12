@@ -1,4 +1,4 @@
-import { registerScreen, setRoot } from './utils/navigation'
+import { registerScreen, registerScreenRedux, setRoot } from './utils/navigation'
 import { HomeScreen, HOME_SCREEN } from './modules/Core/Home'
 
 import {
@@ -18,11 +18,14 @@ import {
 
 // import { SignInScreen, SIGN_IN_SCREEN } from './modules/Core/screens/SignIn'
 
-export const registerScreens = () => {
+export const registerScreens = (Provider, store) => {
   registerScreen(HOME_SCREEN.name, HomeScreen)
   registerScreen(PROFILE_SCREEN.name, ProfileScreen)
-  registerScreen(LOGIN_SCREEN.name, LoginScreen)
-  registerScreen(REGISTER_SCREEN.name, RegisterScreen)
+//   registerScreen(LOGIN_SCREEN.name, LoginScreen)
+//   registerScreen(REGISTER_SCREEN.name, RegisterScreen)
+  registerScreenRedux(LOGIN_SCREEN.name, LoginScreen, Provider, store)
+  registerScreenRedux(REGISTER_SCREEN.name, RegisterScreen, Provider, store)
+
 }
 
 // export const goToAuthScreen = () =>

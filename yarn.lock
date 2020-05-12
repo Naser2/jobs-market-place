@@ -3355,7 +3355,7 @@ hermes-engine@~0.4.0:
   resolved "https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.4.1.tgz#2d02b295596298643c4d24b86687eb554db9e950"
   integrity sha512-Y3JFC8PD7eN3KpnrzrmvMAqp0IwnZrmP/oGOptvaSu33d7Zq/8b/2lHlZZkNvRl7/I1Q0umTX8TByK7zzLfTXA==
 
-hoist-non-react-statics@3.x.x, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@3.x.x, hoist-non-react-statics@^3.3.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -5518,12 +5518,12 @@ react-native@0.62.2:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
 
-react-redux-firebase@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-3.4.0.tgz#acf317a3c3912ae2eb5a25aa252087ac5ca6abe2"
-  integrity sha512-wT+39Qsb7D5CIVzaPHxbSq9ti4FkdDpXp79ZpESS1cq8NQOywkFnybi1PVUD3Owj9yz1SeiclxIXPejqSZ9SGw==
+react-redux-firebase@^2.4.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-2.5.0.tgz#e0f9d99ae160bed5af94c924090261aff280dcbc"
+  integrity sha512-ZKX2jhRtnaaT04I3zQBVErhTZz7feBsvRmR/hoeefu+xC4ln4ZiHDC2UKsQ8iax3C8fDoZrLHAjjUPoMj6Mpaw==
   dependencies:
-    hoist-non-react-statics "^3.3.2"
+    hoist-non-react-statics "^3.3.0"
     lodash "^4.17.15"
     prop-types "^15.7.2"
 

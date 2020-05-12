@@ -7,7 +7,7 @@ import { reactReduxFirebase } from 'react-redux-firebase'
 import { firebase as fbConfig } from './config'
 import rootReducer from './reducer'
 
-export default function configureStore(initialState, history) {
+export default function configureStore(initialState = {}, history = {}) {
   // Initialize Firebase instance
   firebase.initializeApp(fbConfig)
 
